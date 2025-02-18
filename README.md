@@ -46,7 +46,6 @@ Standard deviation and variance This helps to summarize the data and understand 
 ### 📂 Files in This Repository
 
 Pandasdataframes_01(1).ipynb And Pandasdataframes_01.py(Both files are same): The Python script that contains all the code for creating, manipulating, and analyzing the Pandas DataFrames.
-README.md: This file you're reading, explaining the steps and the project.
 
 ### 🛠 Technologies Used
 
