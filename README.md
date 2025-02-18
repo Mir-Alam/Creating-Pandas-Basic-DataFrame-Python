@@ -3,9 +3,9 @@ Pandas DataFrame Project 📊🐍
 
 Welcome to my Pandas DataFrame Project! In this project, I'm exploring various fundamental operations on Pandas DataFrames — a powerful data structure for data analysis and manipulation in Python.
 
-🔎 What I’m Learning
+🔎 What I have Learned
 
-In this project, I will be learning and implementing the following essential Pandas operations:
+In this project, I have learned and implemented the following essential Pandas operations:
 
 Creating Pandas DataFrames from various Python collections.
 Exploring DataFrame properties and retrieving information.
@@ -13,7 +13,7 @@ Selecting specific columns from the DataFrame.
 Adding new columns to a DataFrame.
 Renaming DataFrame columns.
 Generating descriptive statistics on the columns.
-📁 Project Overview
+### 📁 Project Overview
 
 This project will guide you through how to work with Pandas to manage, manipulate, and explore tabular data. Here's what you can expect:
 
@@ -42,23 +42,25 @@ Finally, we perform some basic descriptive statistics on the DataFrame columns, 
 Mean, median, and mode
 Minimum and maximum values
 Standard deviation and variance This helps to summarize the data and understand its distribution and central tendencies.
-📂 Files in This Repository
 
-dataframes_operations.py: The Python script that contains all the code for creating, manipulating, and analyzing the Pandas DataFrames.
+### 📂 Files in This Repository
+
+Pandasdataframes_01(1).ipynb And Pandasdataframes_01.py(Both files are same): The Python script that contains all the code for creating, manipulating, and analyzing the Pandas DataFrames.
 README.md: This file you're reading, explaining the steps and the project.
-🛠 Technologies Used
 
-Python (with Pandas library)
+### 🛠 Technologies Used
+
+Colab Python (with Pandas library)
 Jupyter Notebooks (optional, for interactive exploration)
-VS Code or any Python IDE for writing code
-📋 Example Code Snippets
+
+### 📋 Example Code Snippets
 
 Here’s a quick overview of some of the key operations used in the project:
 
 Creating a DataFrame from a Dictionary
 import pandas as pd
 
-# Creating a dataframe from a list of dictionaries
+### Creating a dataframe from a list of dictionaries
 basket = [
     {"item": "mango", "quantity": 4, "price": 2.99},
     {"item": "bread", "quantity": 2, "price": 3.25},
@@ -70,7 +72,7 @@ basket
 
 df = pd.DataFrame(basket)
 print(df)
-# Creating a dataframe from a dictionary of lists
+### Creating a dataframe from a dictionary of lists
 basket = {
     "item": ["mango", "bread", "juice", "orange", "lime"],
     "quantity": [4, 2, 1, 3, 3],
@@ -79,7 +81,7 @@ basket = {
 basket
 pd.DataFrame(basket)
 
-# Creating a dataframe from a list of lists
+### Creating a dataframe from a list of lists
 example = [
     [1, 2, 3],
     [4, 5, 6],
@@ -90,24 +92,24 @@ column_names = ["variable_a", "variable_b", "variable_c"]
 row_names = ["observation_1", "observation_2", "observation_3"]
 
 pd.DataFrame(example, columns=column_names, index=row_names)
-# Creating an empty dataframe
+### Creating an empty dataframe
 df = pd.DataFrame()
 
-# Adding columns to a dataframe
-# Any list-like data type can become a column
+### Adding columns to a dataframe
+### Any list-like data type can become a column
 df["item"] = pd.Series(["Mango", "Bread", "Juice", "Orange", "Lime"]) #pandas series
 df["quantity"] = [2, 2, 1, 3, 3] # list
 df["price"] = (2.99, 3.25, 5.90, 2.99, 0.30) # tuple
 df
 
-# .shape returns rows, columns
+### .shape returns rows, columns
 df.shape
 
-# len returns number of rows
+### len returns number of rows
 len(df)
-# size returns rows * columns
+### size returns rows * columns
 df.size
-# 5 * 3 = 15
+### 5 * 3 = 15
 
 💡 What’s Next?
 
